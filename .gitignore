@@ -8,3 +8,85 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+venv/
+env/
+.conda/
+conda-env/
+
+# Environment variables and secrets
+.env*
+.secrets
+secrets.json
+config.ini
+settings.ini
+.config
+credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+.secrets/
+secrets/
+
+# API Keys and tokens
+api_keys.txt
+tokens.txt
+auth.json
+.auth
+.credentials
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependency folders
+node_modules/
+bower_components/
+jspm_packages/
+.npm/
+.yarn/
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+log/
+.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
